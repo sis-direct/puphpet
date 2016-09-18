@@ -1,0 +1,22 @@
+target: ~
+
+vm:
+    provider:
+        rackspace:
+            username: ~
+            api_key: ~
+            image: ~
+            machines: []
+    provision:
+        puppet:
+            manifests_path: "puphpet/puppet/manifests"
+            module_path: "puphpet/puppet/modules"
+            options:
+                - "--verbose"
+                - "--hiera_config /vagrant/puphpet/puppet/hiera.yaml"
+    synced_folder: []
+    post_up_message: ''
+ssh:
+    username: ~
+    private_key_path: ~
+    public_key_path: ~

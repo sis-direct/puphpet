@@ -1,0 +1,3 @@
+puphpet.hhvm.homepage:
+    path:  /
+    defaults: { _controller: PuphpetBundle:Hhvm:index }

@@ -1,0 +1,3 @@
+puphpet.server.homepage:
+    path:  /
+    defaults: { _controller: PuphpetBundle:Server:index }
